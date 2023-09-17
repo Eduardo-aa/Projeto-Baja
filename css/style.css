@@ -1,0 +1,124 @@
+html,
+body, main, footer {
+    padding: 0;
+    margin: 0;
+   
+}
+
+.menu {
+   padding: 0 auto;
+   margin: 0 auto;
+    background-color: black;
+    width: 100%;
+    
+}
+.background-menu {
+    display: flex;
+    flex-wrap: wrap;
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+    align-items: end;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.conteudo-menu {
+    margin-bottom: 10px;
+    width: 50%;
+    
+}
+
+.logo {
+  
+    
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+a {
+
+    text-decoration: none;
+    color:white;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+main{
+    margin-top: 10px;
+    
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+  
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+.titulo-2 {
+    width: 100%;
+}
+
+.video{
+    width: 80%;
+    margin-left: 10%;
+   
+}
+#video {
+    width: 100%;
+    height: 100%;
+}
+iframe {
+    width: 50%;
+    height: 300px;
+    border-radius: 7%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+   
+}
+.box-rodape {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.box-rodape1{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+}
+.box1 {
+    width: 69%;
+    height: 100%;
+   
+}
+
+
+.box-rodape p{
+    color: white;
+}
+.box2{
+    
+  
+   
+  align-items:end;
+  
+}
+

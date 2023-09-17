@@ -1,0 +1,202 @@
+html,
+body, main, footer {
+    padding: 0;
+    margin: 0;
+   
+}
+
+.menu {
+   padding: 0 auto;
+   margin: 0 auto;
+    background-color: black;
+    width: 100%;
+    
+}
+.background-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: end;
+    justify-content: flex-end;
+    text-align: end;
+}
+.conteudo-menu {
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.logo {
+    align-items: flex-start;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+a {
+
+    text-decoration: none;
+    color:white;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+main { /*Usado em contato.html e em obrigado.html*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   
+}
+.container-box {
+    display: flex;
+    
+    justify-content: center;
+   flex-direction: column;
+   padding: 10px 45px;
+   background-color: black;
+   width: 500px;
+   margin: 20px 0 20px 0;
+   box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);
+-webkit-box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);
+-moz-box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);;
+  
+}
+
+.container-box h1 {
+    color: white;
+    text-align: center;
+
+}
+
+form label {
+    color: white;
+   
+}
+
+form input {
+    width: 96%;
+    margin-left: 10px;
+    outline: none;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+
+div form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 16px;
+}
+
+
+.box-rodape {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.box-rodape1{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+}
+.box1 {
+    width: 69%;
+    height: 100%;
+   
+}
+
+
+.box-rodape p{
+    color: white;
+}
+.box2{
+    align-items: flex-end;
+}
+
+/*Pagina obrigado*/
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: grey;
+}
+    
+
+nav button {
+    padding: 15px;
+    background-color: transparent;
+    margin-left: 200px;
+    height: 50px;
+    width: 80px;
+    font-size: 16px;
+    transition: all 1s;
+    cursor: pointer;
+    
+}
+nav button:hover {
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+nav button:hover a {
+    color: black;
+    cursor: pointer;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.obrigado {
+    font-size: 50px;
+    color: white;
+}
+nav p {
+    font-size: 20px;
+    padding: 0 0 20px 100px;
+    color: white;
+}
