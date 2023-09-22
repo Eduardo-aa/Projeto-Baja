@@ -39,6 +39,9 @@ body, main, footer {
     margin-bottom: 10px;
    
 }
+#home:hover{
+    background-color: chartreuse;
+}
 
 a {
 
