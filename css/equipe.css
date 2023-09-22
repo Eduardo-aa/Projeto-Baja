@@ -116,4 +116,50 @@ h1 {
   align-items:end;
   
 }
+#Titulo-design {
+    margin-left: 10%;
+}
+.layout-carta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+section .carta {
+    height: 220px;
+    width: 200px;
+    background-color: black;
+   
+    
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
 
+
+
+}
+section #img-carta {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 9px;
+}
+section p {
+    color: white;
+    text-align: center;
+ 
+}
+section #p-2 {
+    padding-bottom: 5px;
+}
+#t-2 {
+    margin-left: 10%;
+}
