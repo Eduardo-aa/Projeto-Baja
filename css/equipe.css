@@ -67,10 +67,9 @@ h1 {
    
 }
 .container-filho-1 {
-    width: 49.6%;
+    width: 100%;
     border: 2px solid black;
     display: flex;
-   
 }
 
 #img {

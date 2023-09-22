@@ -51,6 +51,7 @@ main { /*Usado em contato.html e em obrigado.html*/
    flex-direction: column;
    
 }
+
 .container-box {
     display: flex;
     
@@ -60,9 +61,10 @@ main { /*Usado em contato.html e em obrigado.html*/
    background-color: black;
    width: 500px;
    margin: 20px 0 20px 0;
-   box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);
--webkit-box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);
--moz-box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+   box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+   
   
 }
 
@@ -121,7 +123,7 @@ form button {
     margin-bottom: 20px;
 }
 form button:hover{
-    background-color: #f5f5f5;
+    background-color: #ccff00;
     color: black;
     border-radius: 16px;
 }
