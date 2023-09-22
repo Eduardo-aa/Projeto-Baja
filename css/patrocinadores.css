@@ -2,7 +2,7 @@ html,
 body, main, footer {
     padding: 0;
     margin: 0;
-   
+    
 }
 
 .menu {
@@ -50,6 +50,15 @@ a {
 }
 #titulo {
     text-align: center;
+}
+#img-patrocinadores {
+    margin-bottom: 20px;
+
+}
+#container-ptr {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .box-rodape {
     width: 100%;
