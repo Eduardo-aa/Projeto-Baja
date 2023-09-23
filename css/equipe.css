@@ -74,7 +74,23 @@ h1 {
     text-align: center;
     height: 100%;
 }
-
+.carta-1 {
+    height: 220px;
+    width: 200px;
+    background-color: black;
+   background-image: url(Carro_baja.png);
+   background-position: bottom;
+   background-size: 150px;
+   background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+    box-shadow: 10px 10px 5px 0px rgba(204,255,0,1);
+}
 #img {
     width: 100px;
     height: 100px;
