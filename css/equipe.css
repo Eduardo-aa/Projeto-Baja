@@ -80,7 +80,7 @@ h1 {
     background-color: black;
    background-image: url(Carro_baja.png);
    background-position: bottom;
-   background-size: 150px;
+   background-size: 100px;
    background-repeat: no-repeat;
     margin-bottom: 20px;
     border: 1px solid black;
@@ -173,8 +173,22 @@ section p {
     text-align: center;
  
 }
-section #p-2 {
+.carta-1 #p-2 {
     padding-bottom: 5px;
+    background-color: black;
+    border: 2px solid #ccff00;
+    border-radius: 5px;
+    background-size: 15px;
+    margin-top: 20px;
+    
+}
+.carta-1 #p-2:hover {
+    background-color: #ccff00;
+    transition: 1000ms;
+}
+.carta-1 a:hover {
+    color: black;
+    transition: 1000ms;
 }
 #t-2 {
     margin-left: 10%;

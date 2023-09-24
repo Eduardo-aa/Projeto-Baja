@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato-frenagem.css">
+    <link rel="stylesheet" href="index.html">
+    <link href="imagem/WhatsApp_Image_2023-09-03_at_17.22.56__1_-removebg-preview.ico" rel="icon">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="background-menu">
+                <div class="logo">
+                    <img src="imagem/WhatsApp_Image_2023-09-03_at_17.22.56__1_-removebg-preview.png" alt="logo baja"
+                        height="100px" widht="100px">
+                </div>
+                <div class="conteudo-menu">
+                    <a href="index.html">Home</a>
+                    <a href="equipe.html">Equipe</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="patrocinadores.html">Patrocinadores</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-box">
+            <div class="contato">
+                <h1>Contato</h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label for="name">Nome</label><br>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite e-mail " autocomplete="off"
+                        required>
+                    <label id="msg">Mensagem</label>
+                    <br>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"
+                        required></textarea>
+
+                    <button type="submit" id="botão">Enviar</button>
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="e6318ec6-4652-4f6b-a6b1-34f71871d185">
+
+                    <input type="hidden" name="redirectTo" value="https://eduardo-aa.github.io/Projeto-Baja/obrigado.html">
+
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+<footer>
+
+    <div class="box-rodape">
+        <div class="box-rodape1">
+            <div class="box1">
+                <p id="contato-rodape">E-mail: corsariosbaja@gmail.com</p>
+                <p>Telefone: (32) 4009-3023</p>
+                <p id="copyright">&copy Corsário Baja. Todos os direitos Reservados.</p>
+            </div>
+            <div class="box2">
+                <p>Rua Bernardo Mascarenhas, 1283 - Bairro Fábrica</p>
+                <p>CEP 36080-001</p>
+                <p>Juiz de Fora - MG</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</html>
