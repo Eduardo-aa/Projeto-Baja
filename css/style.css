@@ -1,23 +1,26 @@
 html,
-body, main, footer {
+body,
+main,
+footer {
     padding: 0;
     margin: 0;
-   
+
 }
 
 .menu {
-   padding: 0 auto;
-   margin: 0 auto;
+    padding: 0 auto;
+    margin: 0 auto;
     background-color: black;
     width: 100%;
-    
+
 }
+
 .background-menu {
     display: flex;
     flex-wrap: wrap;
-   width: 80%;
-   margin-left: 10%;
-   margin-right: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     align-items: end;
     justify-content: flex-end;
     text-align: end;
@@ -26,34 +29,37 @@ body, main, footer {
 .conteudo-menu {
     margin-bottom: 10px;
     width: 50%;
-    
+
 }
 
 .logo {
-  
-    
+
+
     width: 50%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 10px;
-   
+
 }
-#home:hover{
+
+#home:hover {
     background-color: chartreuse;
 }
 
 a {
 
     text-decoration: none;
-    color:white;
+    color: white;
     margin-right: 10px;
     font-size: 16px;
     padding-bottom: 10px;
 }
-main{
+
+main {
     margin-top: 10px;
-    
+   
+
 }
 
 .box {
@@ -62,30 +68,33 @@ main{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    
+
 
 }
-  
 
-p {
+
+.box p {
     font-size: 16px;
     text-align: justify;
+
 }
+
 .titulo-2 {
     width: 100%;
 }
 
-.video{
+.video {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     justify-content: center;
 }
+
 #video {
     width: 100%;
     height: 100%;
-    
+
 
 }
 
@@ -95,8 +104,9 @@ iframe {
     border-radius: 7%;
     border: 2px solid black;
     margin-bottom: 10px;
-   
+
 }
+
 .box-rodape {
     width: 100%;
     background-color: black;
@@ -104,7 +114,8 @@ iframe {
     flex-wrap: wrap;
     height: 100%;
 }
-.box-rodape1{
+
+.box-rodape1 {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
@@ -112,21 +123,22 @@ iframe {
     width: 80%;
     height: 100%;
 }
+
 .box1 {
     width: 69%;
     height: 100%;
-   
+
 }
 
 
-.box-rodape p{
+.box-rodape p {
     color: white;
 }
-.box2{
-    
-  
-   
-  align-items:end;
-  
-}
 
+.box2 {
+
+
+
+    align-items: end;
+
+}
