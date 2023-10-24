@@ -142,3 +142,36 @@ iframe {
     align-items: end;
 
 }
+
+.menuHistoria {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha */
+}
+
+.menuHistoria-button {
+    width: 100px;
+    height: 30px;
+    background-color: #666666;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuHistoria-button:hover {
+    background-color: #ccff00;
+    color: #000;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+#imageHistoria-container {
+    margin-left: 20px;
+}
+
+#imageHistoria {
+    max-width: 100%;
+    height: auto;
+}

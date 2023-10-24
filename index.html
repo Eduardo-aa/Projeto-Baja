@@ -75,6 +75,27 @@
             <h4>Nossa Equipe</h4>
 
         </div> 
+
+        <p>Selecione uma opção abaixo para visualizar diferentes imagens:</p>
+        <div class="menuHistoria">
+            <div>
+                <button class="menuHistoria-button" onclick="changeImage('Denso.png')">Botão 1</button>
+                <button class="menuHistoria-button" onclick="changeImage('Cristine.png')">Botão 2</button>
+                <button class="menuHistoria-button" onclick="changeImage('Hero.png')">Botão 3</button>
+                <button class="menuHistoria-button" onclick="changeImage('Anne.png')">Botão 4</button>
+                <!-- Adicione mais botões aqui conforme necessário -->
+            </div>
+            <div id="imageHistoria-container">
+                <img src="Hero.png" id="image">
+            </div>
+        </div>
+    
+        <script>
+            function changeImage(imageName) {
+                var imageElement = document.getElementById('image');
+                imageElement.src = imageName;
+            }
+        </script>
         
         <div class="video">
            
